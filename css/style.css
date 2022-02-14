@@ -14,21 +14,21 @@ body{
     top: 0;
     left: 0;
     z-index: -2;
-    width: 1050px;
-    height: 679px;
+    width: 1400px;
+    height: 650px;
 }
-.bck__el2{
+/* .bck__el2{
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -2;
 
-}
+} */
 .interface{
     z-index: 5;
     width: 100%;
     height: 100%;
-    padding: 5px 76px 0px 30px;
+    padding: 45px 76px 0px 30px;
 }
 .info{
     margin-top: 10px;
@@ -37,22 +37,28 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .info__card{
     margin-right: 30px;
     margin-bottom: 20px;
-    width: 245px;
-    height: 270px;
-    background: rgba(255,255,255,1);
-    border: 1px solid #000000;
+    width: 320px;
+    height: 245px;
+    /* background: rgba(255,255,255,1); */
+    /* border: 1px solid #000000; */
     border-radius: 25px;
-    box-shadow: 4px 9px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     text-align: center;
     align-items: center;
     }
 .foto{
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+}
+.preview1{
+    height: 270px;
+    width: 240px;
     
-    margin-top: 70px;
 }
 .info__card:hover{
     cursor: pointer;
@@ -70,54 +76,66 @@ body{
 }
 .more-info__card{
     width: 250px;
-    height: 280px;
+    height: 250px;
     background-color: #FFFFFF;
     border-radius: 30px;
     text-align: center;
     padding: 30px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    margin-left: 70px;
 }
+.info__card2{
+    width: 245px;
+    height: 270px;
+}
+.info__card6{
+    width: 245px;
+    height: 270px;
+}
+
 .more-info__1{
     position: absolute;
-    top: 80px;
-    left: 100px;
+    top: 60px;
+    left: 130px;
     visibility: hidden;
 }
 .more-info__2{
     position: absolute;
-    top: 80px;
-    left: 400px;
+    top: 60px;
+    left: 550px;
     visibility: hidden;
 }
 .more-info__3{
     position: absolute;
-    top: 80px;
-    left: 700px;
+    top: 60px;
+    left: 950px;
     visibility: hidden;
 }
 .more-info__4{
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 980px;
     visibility: hidden;
 }
 .more-info__5{
     position: absolute;
     top: 380px;
-    left: 100px;
+    left: 130px;
     visibility: hidden;
 }
 .more-info__6{
     position: absolute;
-    top: 380px;
-    left: 400px;
+    top: 360px;
+    left: 550px;
     visibility: hidden;
+    margin-left: 300px;
+    
 }
 .more-info__7{
     position: absolute;
     top: 380px;
-    left: 700px;
+    left: 950px;
     visibility: hidden;
 }
 .more-info__8{
@@ -135,6 +153,11 @@ body{
 .big{
     visibility: visible;
     animation: bigger 1.5s forwards;
+}
+.big6{
+    animation: bigger6 1.5s forwards;
+    visibility: visible;
+    
 }
 
 /* close */
@@ -184,12 +207,22 @@ body{
   0% {width: 12%;
       height: 35%;  
     }
-  100% {width: 94%;
+  100% {width: 80%;
         height: 90%;
         top: 40px;
         left: 50px; 
     }
 }
+@keyframes bigger6 {
+    0% {width: 12%;
+        height: 35%;  
+      }
+    100% {width: 40%;
+          height: 90%;
+          top: 40px;
+          left: 50px; 
+      }
+  }
 
 @keyframes close {
   0% {opacity: 1; }
@@ -197,43 +230,43 @@ body{
 }
 
 @keyframes smaller1 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;
     }
   100% {width: 12%;
         height: 35%;
-        top: 80px;
-        left: 100px;
+        top: 60px;
+        left: 130px;
     }
 }
 @keyframes smaller2 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;
     }
   100% {width: 12%;
         height: 35%;
-        top: 80px;
-        left: 400px;
+        top: 60px;
+        left: 550px;
     }
 }
 @keyframes smaller3 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;
     }
   100% {width: 12%;
         height: 35%;
-        top: 80px;
-        left: 700px;
+        top: 60px;
+        left: 950px;
     }
 }
 @keyframes smaller4 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;
@@ -245,19 +278,19 @@ body{
     }
 }
 @keyframes smaller5 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;
     }
   100% {width: 12%;
         height: 35%;
-        top: 380px;
-        left: 100px;
+        top: 340px;
+        left: 130px
     }
 }
 @keyframes smaller6 {
-  0% {  width: 94%;
+  0% {  width: 40%;
         height: 90%;
         top: 40px;
         left: 50px;
@@ -265,23 +298,23 @@ body{
   100% {width: 12%;
         height: 35%;
         top: 380px;
-        left: 400px;
+        left: 550px;
     }
 }
 @keyframes smaller7 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;
     }
   100% {width: 12%;
         height: 35%;
-        top: 380px;
-        left: 700px;
+        top: 340px;
+        left: 950px;
     }
 }
 @keyframes smaller8 {
-  0% {  width: 94%;
+  0% {  width: 80%;
         height: 90%;
         top: 40px;
         left: 50px;

@@ -5,10 +5,24 @@ $(document).ready(function(){
     var shortDelay = 100;
     
     // for all
-    $('.info__card').on('click', function(event){
+    $('.info__card1').on('click', function(event){
         $('.more').toggleClass('active');
     });
-    
+    $('.info__card2').on('click', function(event){
+        $('.more').toggleClass('active');
+    });
+    $('.info__card3').on('click', function(event){
+        $('.more').toggleClass('active');
+    });
+    $('.info__card5').on('click', function(event){
+        $('.more').toggleClass('active');
+    });
+    $('.info__card7').on('click', function(event){
+        $('.more').toggleClass('active');
+    });
+    $('.info__card6').on('click', function(event){
+        $('.more').toggleClass('active');
+    });
 
     // 111111
      $('.info__card1').on('click', function(event){
@@ -37,7 +51,7 @@ $(document).ready(function(){
 
     // 666666
     $('.info__card6').on('click', function(event){
-        $('.more-info__6').toggleClass('big');
+        $('.more-info__6').toggleClass('big6');
     });
 
     // 777777
@@ -124,7 +138,7 @@ $(document).ready(function(){
     $('.more-info__6').on('click', function(event){
         $('.more').toggleClass('removed');
         $('.more').removeClass('active');
-        $('.more-info__card').removeClass('big');
+        $('.more-info__card').removeClass('big6');
         $('.more-info__6').toggleClass('small6');
         setTimeout(function() {
             $('.more').removeClass('removed');
