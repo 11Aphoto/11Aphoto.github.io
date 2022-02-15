@@ -103,13 +103,14 @@ body{
 .more-info__2{
     position: absolute;
     top: 60px;
-    left: 550px;
+    left: 250px;
     visibility: hidden;
+    margin-left: 300px;
 }
 .more-info__3{
     position: absolute;
     top: 60px;
-    left: 950px;
+    left: 850px;
     visibility: hidden;
 }
 .more-info__4{
@@ -127,7 +128,7 @@ body{
 .more-info__6{
     position: absolute;
     top: 360px;
-    left: 550px;
+    left: 250px;
     visibility: hidden;
     margin-left: 300px;
     
@@ -135,7 +136,7 @@ body{
 .more-info__7{
     position: absolute;
     top: 380px;
-    left: 950px;
+    left: 850px;
     visibility: hidden;
 }
 .more-info__8{
@@ -237,20 +238,20 @@ body{
     }
   100% {width: 12%;
         height: 35%;
-        top: 60px;
+        top: 70px;
         left: 130px;
     }
 }
 @keyframes smaller2 {
-  0% {  width: 80%;
+  0% {  width: 40%;
         height: 90%;
         top: 40px;
         left: 50px;
     }
   100% {width: 12%;
         height: 35%;
-        top: 60px;
-        left: 550px;
+        top: 70px;
+        left: 250px;
     }
 }
 @keyframes smaller3 {
@@ -261,8 +262,8 @@ body{
     }
   100% {width: 12%;
         height: 35%;
-        top: 60px;
-        left: 950px;
+        top: 70px;
+        left: 850px;
     }
 }
 @keyframes smaller4 {
@@ -285,7 +286,7 @@ body{
     }
   100% {width: 12%;
         height: 35%;
-        top: 340px;
+        top: 380px;
         left: 130px
     }
 }
@@ -298,7 +299,7 @@ body{
   100% {width: 12%;
         height: 35%;
         top: 380px;
-        left: 550px;
+        left: 250px;
     }
 }
 @keyframes smaller7 {
@@ -309,8 +310,8 @@ body{
     }
   100% {width: 12%;
         height: 35%;
-        top: 340px;
-        left: 950px;
+        top: 380px;
+        left: 850px;
     }
 }
 @keyframes smaller8 {
